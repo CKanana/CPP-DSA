@@ -7,7 +7,7 @@ int main() {
 
     double radius;
     double volume;
-    const double PI = M_PI;
+    const double PI = 3.141592653589793;
 
     cout << "Enter the radius of the sphere: ";
     cin >> radius;
@@ -26,4 +26,6 @@ int main() {
     cout << "r³ (r cubed)  : " << rCubed << endl;
     cout << "Volume        : " << volume << endl;
 
-    return 0; 
+    return 0;
+}
+    
